@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.xingfu.testdemo">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".TestActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!--<activity android:name="com.xingfu.library3.Library3Activity" android:exported="true"/>
+        <activity android:name="com.xingfu.library2.Library2Activity" android:exported="true"/>
+        <activity android:name="com.xingfu.library1.Library1Activity" android:exported="true"/>-->
+
+    </application>
+
+</manifest>
